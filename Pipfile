@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 spotipy = "*"
+pandas = "*"
+numpy = "*"
+sklearn = "*"
 
 [requires]
 python_version = "*"
