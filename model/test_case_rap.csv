@@ -1,0 +1,13 @@
+artist,album,track,track_id,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+Ka,Grief Pedigree,No Downtime,6LrPl1nylKSnNC1QZfKt6P,0.719,0.536,7,-9.751,1,0.183,0.701,0.0,0.438,0.58,88.051,231413,4
+Ka,Grief Pedigree,Cold Facts,0UBvLSf6TxQJV64CZCbUtH,0.662,0.782,7,-7.04,1,0.191,0.655,0.000746,0.162,0.585,104.317,169093,4
+Baro Sura,Just Problems You Need To Know,PRETTY,7GpsNv6TnecAGWZLAOu4w3,0.669,0.693,1,-7.449,1,0.0712,0.127,0.000921,0.134,0.451,121.924,130227,4
+Baro Sura,HOWGOODISGOOD?,Travellin' Through Time,6aQuNtFKJDXPNrOejOWxox,0.661,0.443,9,-9.454,1,0.365,0.667,0.0,0.0958,0.623,84.039,179821,4
+Aminé,ONEPOINTFIVE,REEL IT IN,5qHirGR7M9tdm6C17DlzSY,0.754,0.342,10,-8.677,0,0.0991,0.073,0.0,0.193,0.423,128.981,121347,4
+Aminé,Good For You,Caroline,5hTpBe8h35rJ67eAWHQsJx,0.941,0.335,5,-10.179,0,0.505,0.17,0.0,0.262,0.707,120.041,209640,4
+Aminé,REDMERCEDES,REDMERCEDES,4X70hLzIDfY5T2BcsOcv6Q,0.816,0.63,1,-5.729,0,0.183,0.00639,0.0304,0.173,0.599,101.997,169707,4
+Aminé,Good For You,Spice Girl,4HW5kSQ8M2IQWZhSxERvla,0.693,0.464,0,-7.912,0,0.224,0.391,0.0,0.157,0.868,78.1,173947,4
+Mac Miller,Swimming,Self Care,5bJ1DrEM4hNCafcDd1oxHx,0.52,0.538,1,-8.109,1,0.206,0.367,0.00187,0.119,0.177,141.894,345133,4
+Mac Miller,Circles,Blue World,2hwOoMtWPtTSSn6WHV7Vp5,0.742,0.553,8,-8.98,1,0.419,0.389,0.0,0.0694,0.508,84.931,209440,4
+Mac Miller,Circles,Good News,1DWZUa5Mzf2BwzpHtgbHPY,0.794,0.32,1,-12.92,0,0.173,0.853,0.134,0.112,0.241,174.088,342040,4
+Mac Miller,The Divine Feminine,Dang! (feat. Anderson .Paak),5iUQMwxUPdJBFeGkePtM66,0.836,0.67,5,-6.907,0,0.23,0.00826,0.000355,0.0837,0.556,107.018,305350,4
