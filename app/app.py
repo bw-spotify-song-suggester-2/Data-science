@@ -4,7 +4,7 @@ based on users' playlist of choice.
 """
 
 
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, json
 from dotenv import load_dotenv
 # from .fetch_playlist import *
 # from .model import Predictor
@@ -50,8 +50,9 @@ def create_app():
         # knnmodel = Predictor()
         # pred_distances, pred_indices = knnmodel.predict(user_input=tracks)
         if user_input is not None:
-            rec_file = open('model/recommendations.json', 'r')
-        return rec_file
+            with open('model/recommendations.json') as f:
+                data = json.load(f)
+        return data
     
     return app
 
