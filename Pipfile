@@ -4,12 +4,19 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 spotipy = "*"
 pandas = "*"
 numpy = "*"
-sklearn = "*"
+requests = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+decouple = "*"
+python-decouple = "*"
+python-dotenv = "*"
+sklearn = "==0.20.1"
 
 [requires]
 python_version = "*"
