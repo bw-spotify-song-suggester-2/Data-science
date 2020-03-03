@@ -16,6 +16,7 @@ flask-sqlalchemy = "*"
 python-decouple = "*"
 python-dotenv = "*"
 scikit-learn = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "*"
