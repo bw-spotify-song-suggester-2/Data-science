@@ -16,7 +16,7 @@ flask-sqlalchemy = "*"
 decouple = "*"
 python-decouple = "*"
 python-dotenv = "*"
-sklearn = "==0.20.1"
+scikit-learn = "*"
 
 [requires]
 python_version = "*"
