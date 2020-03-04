@@ -105,3 +105,27 @@ def pull_songs_and_feats(playlist_id):
     playlist_tracks = playlist_tracks.drop_duplicates()
     
     return playlist_tracks
+
+def pull_feats(playlist_id):
+    """
+    Takes a playlist ID and automates calling the track features.
+    
+    """
+    
+    track_df = spotify_playlist_tracks(playlist_id)
+    
+    track_ids = list(track_df['track_id'])
+    
+    track_features_df = spotify_track_features(track_ids)
+    
+    playlist_tracks = track_df.merge(track_features_df, how = 'right', 
+                                     left_on = 'track_id', right_on = 'id')
+    
+    playlist_tracks = playlist_tracks.drop(columns = ['id', 'uri', 'track_href', 
+                                                      'analysis_url', 'type',
+                                                      'artist', 'album', 'track',
+                                                      'track_id'])
+
+    playlist_tracks = playlist_tracks.drop_duplicates()
+    
+    return playlist_tracks
