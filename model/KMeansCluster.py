@@ -5,13 +5,12 @@ from sklearn.cluster import KMeans
 # Import
 df = pd.read_csv('track_master_df.csv')
 
-# Use only the continuous data
-df = df.drop(columns=['key','mode','time_signature'])
+# Use only the numerical data
 features = df.columns[4:]
 df_cont = df[features]
 
 # Fit model
-kmeans = KMeans(n_clusters=5)
+kmeans = KMeans(n_clusters=10)
 kmeans.fit(df_cont)
 
 # Create labels
