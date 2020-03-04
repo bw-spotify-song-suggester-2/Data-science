@@ -37,7 +37,7 @@ class Predictor():
 
         ind, val = zip(*recommend_indices) 
 
-        columns = ['artist', 'album', 'track', 'track_id']
+        columns = ['artist', 'album', 'track']
 
         recommendations = self.df.iloc[list(ind[:size])][columns]
 
