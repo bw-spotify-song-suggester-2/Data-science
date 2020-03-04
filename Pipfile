@@ -16,6 +16,7 @@ python-decouple = "*"
 python-dotenv = "*"
 scikit-learn = "==0.22.1"
 scipy = "*"
+yellowbrick = "*"
 
 [requires]
 python_version = "*"
