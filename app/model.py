@@ -16,7 +16,7 @@ import operator
 class Predictor():
     def __init__(self, model=None, df=None):
         self.model = load_file('model')
-        self.df = pd.read_csv('model/track_master_df.csv')
+        self.df = pd.read_csv('app/model/track_master_df.csv')
 
     def predict(self, user_input=None, size=10):
         
