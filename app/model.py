@@ -19,6 +19,10 @@ class Predictor():
     def predict(self, user_input=None, size=10):
         pass
 
+######################
+###Helper Functions###
+######################
+
 def get_abs_path(filename, **kwargs):
     if os.path.isfile(os.path.abspath(filename)):
         return os.path.abspath(filename)
@@ -31,6 +35,10 @@ def load_file(file_key):
     with open(get_abs_path(params[file_key]), 'rb') as f:
         opened = pickle.load(f)
     return opened
+
+##################
+##SET PARAMETERS##
+##################
 
 params = {
     'model': 'knn_model.pkl'
