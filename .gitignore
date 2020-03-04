@@ -82,8 +82,8 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
+.env
 env/
 venv/
 ENV/
@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# vscode
+.vscode

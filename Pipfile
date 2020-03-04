@@ -3,10 +3,8 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
-pylint = "*"
-
 [packages]
+gunicorn = "*"
 spotipy = "*"
 pandas = "*"
 numpy = "*"
@@ -16,7 +14,9 @@ flask-sqlalchemy = "*"
 decouple = "*"
 python-decouple = "*"
 python-dotenv = "*"
-sklearn = "==0.20.1"
+scikit-learn = "*"
+scipy = "*"
+yellowbrick = "*"
 
 [requires]
 python_version = "*"
