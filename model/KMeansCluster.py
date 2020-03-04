@@ -20,7 +20,6 @@ labels = kmeans.labels_
 # Append cluster labels to dataframe
 new_series = pd.Series(labels)
 df_num['clusters'] = new_series.values
-# print(df_num)
 
 # Calculate each cluster's centroid
 # centroids = df_num.groupby('clusters').mean()
