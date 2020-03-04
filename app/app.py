@@ -50,7 +50,7 @@ def create_app():
         knnmodel = Predictor()
         # pred_distances, pred_indices = kdtree_model.predict(user_input=user_input, size=10)
         
-        return print(ok)
+        return render_template('home.html')
 
     return app
 

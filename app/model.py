@@ -33,5 +33,5 @@ def load_file(file_key):
     return opened
 
 params = {
-    'model': 'knnpickled'
+    'model': 'knn_model.pkl'
 }
