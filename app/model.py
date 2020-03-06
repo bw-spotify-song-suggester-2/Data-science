@@ -7,6 +7,8 @@ import pickle
 import pandas as pd
 import numpy as np
 import operator
+from sklearn.neighbors import NearestNeighbors
+import category_encoders as ce
 
 
 ###################
@@ -43,6 +45,53 @@ class Predictor():
 
         rec_json = recommendations.to_json(orient = 'table', index = False, force_ascii = False)
 
+        return rec_json
+
+    def rf_recommendations(self, user_input=None):
+        """
+        input: target playlist
+        
+        output: recommendations using a hybrid of random forest and nearest neighbors 
+                models; json format.
+        
+        """
+        X_test = clean_dataframe(user_input)
+        
+        predictions = self.model.predict(X_test)
+        
+        clusters = list(set(predictions))
+
+        columns = ['artist', 'album', 'track', 'track_id']
+
+        recommendations = pd.DataFrame(columns = columns)
+
+        for cluster in clusters:
+            
+            count = list(predictions).count(cluster)
+            
+            X = self.df[self.df['clusters']== cluster].drop(columns = 'clusters')
+
+            knn = NearestNeighbors(n_neighbors=5, algorithm='brute').fit(X)
+
+            distances, indices = knn.kneighbors(X_test)
+
+            recommend_indices = []
+
+            for ii, dists in enumerate(distances):
+                for jj, val in enumerate(dists):
+                    if (val > 0) & (val < 40):
+                        recommend_indices.append((indices[ii][jj], int(round(val))))
+
+            recommend_indices = sorted(recommend_indices, key = operator.itemgetter(1))
+
+            ind, val = zip(*recommend_indices) 
+
+            recommendations = pd.concat([recommendations, self.df.iloc[list(ind[:count*2])][columns]])
+
+            recommendations = recommendations.drop_duplicates()
+            
+            rec_json = recommendations.to_json(orient = 'table', index = False, force_ascii = False)
+    
         return rec_json
 
 ######################

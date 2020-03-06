@@ -9,11 +9,12 @@ spotipy = "*"
 pandas = "*"
 numpy = "*"
 requests = "*"
-flask = "*"
+flask-cors = "*"
 python-decouple = "*"
 python-dotenv = "*"
 scikit-learn = "*"
 scipy = "*"
+category-encoders = "*"
 
 [requires]
 python_version = "*"

@@ -5,6 +5,7 @@ based on users' playlist of choice.
 
 
 from flask import Flask, request, render_template, jsonify, json
+from flask_cors import CORS
 from dotenv import load_dotenv
 from .fetch_playlist import *
 from .model import *
@@ -12,6 +13,7 @@ from .model import *
 load_dotenv()
 def create_app():
     app = Flask(__name__)
+    CORS(app)
 
     @app.route("/")
     def home():
