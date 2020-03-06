@@ -35,10 +35,10 @@ def create_app():
             A list of recommended songs
         """
         user_input = str(request.args['search'])
-        tracks = pull_feats(playlist_id=user_input)
+        tracks = pull_songs_and_feats(playlist_id=user_input)
 
         knnmodel = Predictor()
-        recommendations = knnmodel.predict(user_input=tracks, size=10)
+        recommendations = knnmodel.predict(user_input=tracks)
         return recommendations
 
     return app
