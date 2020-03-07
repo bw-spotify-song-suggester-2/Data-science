@@ -14,7 +14,7 @@ def clean_dataframe(df):
     features = df.columns[4:]
     df_num = df[features].copy().drop(columns = ['duration_ms', 'tempo'])
 
-    replace = [('time_signature', list(range(0,5))),
+    replace = [('time_signature', list(range(0,6))),
                ('mode', [0,1]),
                ('key', list(range(-1,12)))]
 
