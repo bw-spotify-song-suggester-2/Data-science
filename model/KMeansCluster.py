@@ -18,7 +18,7 @@ def clean_dataframe(df):
 
     replace = [('time_signature', list(range(0,6))), 
                ('mode', [0,1]), 
-               ('key', list(range(1,12)))]
+               ('key', list(range(-1,12)))]
     
     for col in replace:
         cat_dtype = pd.api.types.CategoricalDtype(categories=col[1], ordered=False) # makes sure every

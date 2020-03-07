@@ -1,0 +1,97 @@
+artist,album,track,track_id,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+Meek Mill,Championships,Going Bad (feat. Drake),2IRZnDFmlqMuOrYOLnZZyc,0.889,0.496,4,-6.365,0,0.0905,0.259,0.0,0.252,0.544,86.003,180522,4
+J. Cole,MIDDLE CHILD,MIDDLE CHILD,2JvzF1RMd7lE3KmFlsyZD8,0.837,0.364,8,-11.713,1,0.276,0.149,0.0,0.271,0.463,123.984,213594,4
+Travis Scott,ASTROWORLD,SICKO MODE,2xLMifQCjDGFmkHkpNLD9h,0.834,0.73,8,-3.714,1,0.222,0.00513,0.0,0.124,0.446,155.008,312820,4
+Mustard,Perfect Ten,Pure Water (with Migos),3j84U36KvLeXNDPv4t5pI8,0.682,0.559,0,-5.545,1,0.127,0.174,0.0,0.344,0.137,202.015,192471,4
+A Boogie Wit da Hoodie,Hoodie SZN,Swervin (feat. 6ix9ine),1wJRveJZLSb1rjhnUHQiv6,0.581,0.662,9,-5.239,1,0.303,0.0153,0.0,0.111,0.434,93.023,189487,4
+Post Malone,Hollywood's Bleeding,Wow.,7xQAfvXzm3AkraOtGPWIZg,0.829,0.539,11,-7.359,0,0.208,0.136,1.78e-06,0.103,0.388,99.96,149547,4
+Offset,Without Warning,Ric Flair Drip (& Metro Boomin),7sO5G9EABYOXQKNPNiE9NR,0.88,0.428,9,-8.28,1,0.206,0.149,5.07e-05,0.114,0.333,100.007,172800,4
+Travis Scott,Birds In The Trap Sing McKnight,goosebumps,6gBFPUFcJLzWGx4lenP6h2,0.841,0.728,7,-3.37,1,0.0484,0.0847,0.0,0.149,0.43,130.049,243837,4
+Lil Baby,Harder Than Ever,Yes Indeed,6vN77lE9LK6HP2DewaN6HZ,0.964,0.346,5,-9.309,0,0.53,0.035,0.0,0.108,0.562,119.958,142273,4
+Kendrick Lamar,DAMN.,DNA.,6HZILIRieu8S0iqY8kIKhj,0.638,0.523,1,-6.664,1,0.357,0.00454,0.0,0.0842,0.422,139.913,185947,4
+A$AP Ferg,Still Striving,Plain Jane,4dVpf9jZjcORqGTLUaeYj9,0.797,0.844,11,-5.482,1,0.275,0.0651,0.0,0.087,0.52,170.142,173600,4
+Nipsey Hussle,Racks in the Middle (feat. Roddy Ricch and Hit-Boy),Racks in the Middle (feat. Roddy Ricch and Hit-Boy),6ya8ejoKgw906Y8LWclqrp,0.671,0.833,5,-5.152,0,0.395,0.0825,0.0,0.0726,0.702,79.351,233278,4
+Juice WRLD,Death Race For Love,Make Believe,6eiztdXRkooWsBt2xToMWI,0.465,0.84,0,-4.35,1,0.0722,0.125,0.0,0.138,0.672,83.981,142026,4
+Lil Baby,Street Gossip,Pure Cocaine,577YBGuskWkVDCxZrLRB4v,0.964,0.487,10,-6.071,0,0.421,0.00127,6.57e-06,0.115,0.107,127.05,154024,4
+Jay Rock,Redemption,WIN,69WMdZSqdQwFgLVpbMsZ2J,0.879,0.595,1,-2.936,1,0.0889,0.0152,0.0,0.391,0.355,125.994,215227,4
+Duckwrth,Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture),Start a Riot,6V81K1OcvYgHEnCA6A2Qx9,0.728,0.727,2,-3.585,1,0.206,0.0128,0.0,0.0882,0.89,143.144,171467,4
+Rae Sremmurd,SR3MM,Powerglide (feat. Juicy J) - From SR3MM,1BuZAIO8WZpavWVbbq3Lci,0.713,0.831,1,-4.75,0,0.15,0.0168,0.0,0.118,0.584,173.948,332301,4
+Future,Future Hndrxx Presents: The WIZRD,First Off (feat. Travis Scott),3WRIaWsws011vHMd9uzPjG,0.734,0.683,1,-6.105,1,0.0776,0.013,0.0,0.28,0.445,162.038,228367,4
+YBN Cordae,The Lost Boy,Have Mercy,0GwYkXgQdqY4dyRffHw3HT,0.794,0.44,0,-7.861,0,0.131,0.0806,0.0,0.198,0.276,138.024,202454,4
+Lil Wayne,Tha Carter IV (Deluxe),6 Foot 7 Foot,0s019O8KwLXkPSSV609qEE,0.365,0.751,2,-5.429,1,0.304,0.000707,0.0,0.318,0.604,79.119,248587,4
+KIDS SEE GHOSTS,KIDS SEE GHOSTS,4th Dimension,6JyEh4kl9DLwmSAoNDRn5b,0.765,0.542,1,-6.755,1,0.39,0.278,1.87e-05,0.609,0.734,171.945,153351,4
+Big Sean,I Decided.,Bounce Back,0SGkqnVQo9KPytSri1H6cF,0.78,0.574,1,-5.628,0,0.141,0.104,0.0,0.129,0.273,81.502,222360,4
+Kendrick Lamar,DAMN.,HUMBLE.,7KXjTSCq5nL1LoYtL7XAwS,0.908,0.621,1,-6.638,0,0.102,0.000282,5.39e-05,0.0958,0.421,150.011,177000,4
+G-Eazy,The Beautiful & Damned,No Limit,2DQ1ITjI0YoLFzuADN1ZBW,0.838,0.771,1,-3.791,1,0.244,0.0117,0.0,0.0853,0.405,175.957,245387,4
+Aminé,ONEPOINTFIVE,BLACKJACK,6U9OkV9oa8kN8LyBGf3wvJ,0.962,0.563,2,-6.372,1,0.246,0.184,0.0,0.059,0.899,131.023,117307,4
+Migos,Culture II,Stir Fry,2UVbBKQOdFAekPTRsnkzcf,0.817,0.816,2,-5.402,1,0.269,0.00263,0.0,0.159,0.508,181.982,190288,4
+Rick Ross,Port Of Miami,Hustlin',3hQCHzkE5oSA3F1xM8bpcM,0.502,0.652,9,-7.224,1,0.3,0.0849,0.0,0.0675,0.649,136.04,254093,4
+Nipsey Hussle,Victory Lap,Dedication (feat. Kendrick Lamar),6fIjnWrv46njJHLDAY2JdC,0.512,0.734,8,-5.448,0,0.438,0.431,0.0,0.226,0.168,93.995,245813,4
+Kanye West,My Beautiful Dark Twisted Fantasy,POWER,2gZUPNdnz5Y45eiGxpHGSc,0.543,0.915,0,-4.746,0,0.113,0.0162,0.0,0.744,0.577,153.998,292093,4
+Comethazine,Walk (Remix),Walk (Remix),35l8ivgXiWiDCv7TCZ50Da,0.813,0.586,2,-10.478,1,0.379,0.0547,0.0,0.238,0.798,160.043,186517,4
+Drake,Back To Back,Back To Back,5lFDtgWsjRJu8fPOAyJIAK,0.893,0.48,1,-3.728,0,0.356,0.00854,0.0,0.116,0.382,86.976,170638,4
+Vince Staples,Big Fish Theory,Big Fish,6eL1ncVDtQHgSm3E288TS7,0.898,0.547,3,-5.707,0,0.313,0.484,1.04e-05,0.37,0.763,100.01,198133,4
+Gucci Mane,Mr. Davis,I Get the Bag (feat. Migos),1XRgIKC5TPwo7nWGyKqgG0,0.89,0.633,11,-5.475,1,0.168,0.0232,0.000343,0.0993,0.425,139.948,233087,4
+Joey Purp,QUARTERTHING,Elastic,4MAADpR6MjelkaZqe3Mgnv,0.966,0.435,1,-4.944,1,0.0674,0.0604,0.22,0.0511,0.561,111.16,126386,4
+A$AP Rocky,TESTING,Praise The Lord (Da Shine) (feat. Skepta),7ycWLEP1GsNjVvcjawXz3z,0.85,0.569,5,-8.152,0,0.136,0.0609,0.0816,0.1,0.294,80.02,205040,4
+Drake,Relapse: Refill,Forever,5UsLjwBaTHBX4ektWIr4XX,0.457,0.906,5,-2.278,0,0.342,0.249,0.0,0.182,0.54,104.02,357707,5
+Vince Staples,Summertime '06,Norf Norf,4uQ7wYsuL0DryknoDc11Hk,0.925,0.548,7,-6.572,1,0.0658,0.394,0.000128,0.11,0.0922,100.015,183160,4
+Meek Mill,"MMG Presents: Self Made, Vol. 1",Ima Boss (feat. Rick Ross),7sjwaBQ6M3aVigYfBjm1sL,0.37,0.87,5,-2.09,1,0.271,0.0415,0.0,0.604,0.331,79.092,250240,4
+BROCKHAMPTON,iridescence,NEW ORLEANS,5kkxyqYSQrnHpfsmkjKi81,0.639,0.815,11,-4.962,0,0.252,0.232,0.0,0.299,0.4,159.903,243280,4
+21 Savage,Issa Album,Bank Account,2fQrGHiQOvpL9UgPvtYy6G,0.884,0.346,8,-8.228,0,0.351,0.0151,7.04e-06,0.0871,0.376,75.016,220307,4
+Eminem,The Eminem Show,'Till I Collapse,4xkOaSrkexMciUUogZKVTS,0.548,0.847,1,-3.237,1,0.186,0.0622,0.0,0.0816,0.1,171.447,297787,4
+Jeezy,Pressure,"American Dream (feat. J. Cole, Kendrick Lamar)",2j8MsmmNqmc6UBEA54KOlY,0.64,0.849,2,-5.684,1,0.154,0.0587,0.0,0.303,0.641,76.983,249040,4
+Blueface,Famous Cryp,Thotiana,3oh6SCCeLuXhFpEyepla6G,0.906,0.382,10,-12.89,0,0.269,0.18,0.0,0.113,0.391,104.025,129264,4
+Drake,What A Time To Be Alive,Jumpman,27GmP9AWRs744SzKcpJsTZ,0.852,0.553,1,-7.286,1,0.187,0.0563,0.0,0.332,0.656,142.072,205879,4
+Machine Gun Kelly,Lace Up,Wild Boy,7vicvhgtH7AwJHYGksV5C7,0.801,0.682,10,-4.676,0,0.0498,0.0292,0.0,0.226,0.484,140.061,231373,4
+Kanye West,Yeezus,Black Skinhead,722tgOgdIbNe3BEyLnejw4,0.766,0.821,1,-6.124,1,0.268,0.00112,0.0,0.168,0.299,130.073,188013,4
+"Tyler, The Creator",OKRA,OKRA,74ZovzRxHBvCq5yIwe8boh,0.589,0.57,1,-9.54,1,0.361,0.0456,1.51e-06,0.137,0.441,136.203,151027,4
+Pusha T,DAYTONA,If You Know You Know,6bGwKHXHNLmTy6yt147FPh,0.46,0.697,6,-5.954,0,0.325,0.0186,0.0,0.362,0.701,153.426,202120,4
+NF,Perception,Let You Down,52okn5MNA47tk87PeZJLEL,0.662,0.714,5,-5.68,0,0.121,0.312,0.0,0.179,0.464,147.997,212120,4
+Run The Jewels,Run The Jewels 2,Close Your Eyes (And Count To Fuck),2Kn3xgaDCM4aHuHK7FApgC,0.678,0.662,1,-6.473,1,0.3,0.0123,0.0,0.133,0.498,80.318,234160,4
+Kanye West,Clique,Clique,3rbNV2GI8Vtd8byhUtXZID,0.704,0.569,7,-4.998,0,0.247,0.0488,0.0,0.191,0.313,109.314,293533,5
+Drake,What A Time To Be Alive,Big Rings,7jslhIiELQkgW9IHeYNOWE,0.776,0.675,8,-6.224,0,0.266,0.00196,0.0,0.227,0.271,131.984,217707,4
+Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],Wu-Tang Clan Aint Nuthing ta F' Wit,24vNw0Z0srb4zYXwrakw8E,0.826,0.566,10,-10.747,0,0.31,0.197,0.0,0.356,0.653,99.13,216133,4
+Fort Minor,The Rising Tied,Remember the Name (feat. Styles of Beyond),6ndmKwWqMozN2tcZqzCX4K,0.688,0.835,8,-4.162,1,0.0911,0.0583,2.87e-06,0.0795,0.88,84.858,230493,4
+Post Malone,beerbongs & bentleys,rockstar (feat. 21 Savage),0e7ipj03S05BNilyu5bRzt,0.585,0.52,5,-6.136,0,0.0712,0.124,7.01e-05,0.131,0.129,159.801,218147,4
+2 Chainz,Based On A T.R.U. Story (Deluxe),I'm Different,1odwi1SN3pJKENZe12U2OQ,0.936,0.702,10,-5.305,1,0.0615,0.0473,0.0,0.0838,0.704,97.524,207040,4
+Rick Ross,Port Of Miami,Push It,39SQnz9u6zd91nZdaPmmJK,0.66,0.765,7,-7.121,1,0.245,0.227,0.0,0.376,0.771,151.074,208600,4
+JAY-Z,Numb/Encore: MTV Ultimate Mash-Ups Presents Collision Course,Numb / Encore,5sNESr6pQfIhL3krM8CtZn,0.687,0.793,2,-4.254,1,0.166,0.0603,0.0,0.582,0.751,107.045,205733,4
+Rage Against The Machine,Evil Empire,Bulls On Parade,0tZ3mElWcr74OOhKEiNz1x,0.412,0.919,5,-7.291,1,0.184,0.0124,0.0601,0.424,0.572,166.367,229467,4
+Action Bronson,Mr. Wonderful,Baby Blue (feat. Chance the Rapper),7gDwRzJhLs0fFHaGtMDJVM,0.828,0.487,6,-6.142,0,0.0343,0.247,1.86e-05,0.136,0.761,85.027,280160,4
+Cage The Elephant,Cage The Elephant,Ain't No Rest For The Wicked - Original Version,5c5a2Ptu8eyIpljhQHjIqk,0.635,0.914,0,-5.631,1,0.111,0.0597,0.0,0.601,0.922,156.014,175493,4
+Pharoahe Monch,Simon Says,Simon Says,67IvfvAMYQzJEeHopvwMMW,0.664,0.916,1,-3.888,1,0.473,0.17,1.67e-05,0.164,0.559,93.134,173159,4
+Run The Jewels,Run The Jewels 2,"Blockbuster Night, Pt. 1",5jQYkYhoOlBW4vJ2l4TCxl,0.701,0.525,1,-7.938,0,0.382,0.0353,2.55e-06,0.0615,0.385,75.693,152253,4
+Gang Starr,Moment Of Truth,Work,1EiLrPd8JMTcQUr1aLEUKi,0.787,0.832,10,-4.671,1,0.301,0.0347,0.0,0.0593,0.814,92.606,177667,4
+Rage Against The Machine,The Battle Of Los Angeles,Testify,7lmeHLHBe4nmXzuXc0HDjk,0.47,0.978,7,-5.399,1,0.0727,0.0261,1.09e-05,0.356,0.503,117.906,210133,4
+MGMT,Oracular Spectacular,Electric Feel,3FtYbEfBqAlGO46NUDQSAt,0.763,0.807,1,-3.714,1,0.035,0.0714,0.28,0.348,0.559,103.038,229640,3
+Action Bronson,Mr. Wonderful,Actin Crazy,3clX2NMmjaAHmBjeTSa9vV,0.5,0.622,1,-7.282,1,0.619,0.197,0.0,0.116,0.252,165.503,239467,4
+DJ Shadow,The Mountain Will Fall,Nobody Speak,2A9rFFPwsnhusCh8ZMBvYY,0.621,0.814,2,-5.937,1,0.154,0.0405,0.00274,0.263,0.304,160.066,195966,4
+Denzel Curry,Ultimate,Ultimate,6R0GRYk2vs2XuBVemYK5YZ,0.493,0.826,9,-3.106,1,0.311,0.095,3.42e-06,0.252,0.75,112.865,189974,4
+Eminem,Curtain Call,"Lose Yourself - From ""8 Mile"" Soundtrack",5Z01UMMf7V1o0MzF86s6WJ,0.692,0.744,2,-4.565,1,0.257,0.00868,0.000423,0.359,0.0612,171.374,326467,4
+Beastie Boys,Check Your Head,So What'Cha Want - 2009 Digital Remaster,0gmGBCJ5XhOmoNR37MmxEE,0.7,0.942,5,-7.355,0,0.237,0.0469,2.93e-05,0.0666,0.766,171.37,216941,4
+Twenty One Pilots,Trench,Jumpsuit,1E1uGhNdBe6Dddbgs2KqtZ,0.62,0.61,11,-8.329,0,0.0373,0.00849,0.162,0.205,0.235,127.052,238560,4
+Run The Jewels,Run The Jewels 2,Oh My Darling Don't Cry,1JT9uu6MfvVC8iZG3rIHq4,0.667,0.588,1,-7.15,1,0.266,0.0198,2.77e-06,0.462,0.285,150.006,204840,4
+Dead Prez,Let's Get Free,Hip Hop,2HoDr1yVksl19omOhc1zWy,0.725,0.737,4,-7.453,1,0.324,0.000633,0.00417,0.109,0.219,77.161,214067,4
+Rage Against The Machine,The Battle Of Los Angeles,Guerrilla Radio,1wsRitfRRtWyEapl0q22o8,0.599,0.957,11,-5.764,1,0.188,0.0129,7.06e-05,0.155,0.489,103.68,206200,4
+Pusha T,My Name Is My Name,Numbers On The Boards,4XkXgUNDVBMj3oJoE8yspZ,0.807,0.556,0,-5.539,0,0.119,0.157,0.0,0.0906,0.383,87.852,163587,4
+Sum 41,"All Killer, No Filler",Fat Lip,4KacUpvbA3Mfo05gttTjhN,0.402,0.914,9,-5.215,1,0.142,0.000579,0.0,0.065,0.626,196.505,178267,4
+The Cool Kids,The Bake Sale,Black Mags,0e0zaVxDmUPK0JyRSzgWOE,0.749,0.577,4,-6.446,0,0.295,0.0984,1.08e-05,0.316,0.459,172.035,191107,4
+Dr. Dre,2001,The Next Episode,4LwU4Vp6od3Sb08CsP99GC,0.922,0.909,10,-2.429,0,0.27,0.0281,0.0,0.0856,0.309,95.295,161507,4
+Rage Against The Machine,The Battle Of Los Angeles,Sleep Now In the Fire,1MQTmpYOZ6fcMQc56Hdo7T,0.426,0.929,2,-6.729,1,0.0701,0.00162,0.105,0.0789,0.539,127.059,205600,4
+Linkin Park,Hybrid Theory (Bonus Edition),Papercut,1Vej0qeQ3ioKwpI6FUbRv1,0.524,0.939,9,-3.994,1,0.113,0.00022,0.0,0.623,0.661,150.184,184867,4
+A Tribe Called Quest,We got it from Here... Thank You 4 Your service,We The People....,3wUX7HpXS382s1DHTRouVk,0.71,0.805,1,-5.471,1,0.0637,0.00909,0.0,0.141,0.897,92.601,172013,4
+Beastie Boys,Ill Communication,Sabotage,0Puj4YlTm6xNzDDADXHMI9,0.324,0.938,6,-7.332,0,0.102,0.032,0.0321,0.0961,0.543,168.131,178440,4
+Twenty One Pilots,Heathens,Heathens,6i0V12jOa3mr6uu4WYhUBr,0.732,0.396,4,-9.348,0,0.0286,0.0841,3.58e-05,0.105,0.548,90.024,195920,4
+K.Flay,Every Where Is Some Where,Blood In The Cut,4q604hQba5940BbOoaenmz,0.77,0.655,2,-5.369,1,0.0316,0.118,0.0234,0.125,0.639,129.964,188707,4
+Gorillaz,Demon Days,Feel Good Inc.,0d28khcov6AiegSCpG5TuT,0.818,0.705,6,-6.679,1,0.177,0.00836,0.00233,0.613,0.772,138.559,222640,4
+Foo Fighters,One By One (Expanded Edition),All My Life,6tsojOQ5wHaIjKqIryLZK6,0.58,0.604,5,-5.703,1,0.047,0.000218,0.000579,0.477,0.645,167.784,263440,4
+Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),Killing In The Name,59WN2psjkt1tyaxjspN8fp,0.466,0.833,7,-4.215,1,0.304,0.0266,0.0,0.0327,0.661,88.785,313573,4
+AWOLNATION,Megalithic Symphony,Sail,5N7d8uxMeuO4HdncbkuhSB,0.832,0.435,1,-9.598,1,0.0604,0.479,0.553,0.0952,0.279,119.057,259093,4
+The Black Keys,Brothers,Howlin' for You,4eSHBywQpd8lYXPB8xCaOe,0.709,0.735,11,-6.665,1,0.0966,0.0303,0.0821,0.101,0.473,132.597,191800,4
+The Raconteurs,Broken Boy Soldiers,"Steady, As She Goes",19iqWNzp5LwEdvntpEK8MP,0.524,0.578,9,-4.563,1,0.12,0.0132,0.00921,0.108,0.537,123.669,215267,4
+Foo Fighters,"Echoes, Silence, Patience & Grace",The Pretender,7x8dCjCr0x6x2lXKujYD34,0.433,0.959,9,-4.04,1,0.0431,0.000917,0.0,0.028,0.365,172.984,269373,4
+The White Stripes,Elephant,Seven Nation Army,47wPvRG8FEwbZP22UBgTQr,0.74,0.469,4,-7.627,0,0.0805,0.00601,0.447,0.306,0.313,123.909,231920,4
+Queens of the Stone Age,Songs For The Deaf,No One Knows,6y20BV5L33R8YXM0YuI38N,0.509,0.584,0,-4.907,1,0.057,0.0368,9.96e-05,0.384,0.685,170.411,278747,4
+Arctic Monkeys,AM,Do I Wanna Know?,5FVd6KXrgO9B3JPmC8OPst,0.548,0.532,5,-7.596,1,0.0323,0.186,0.000263,0.217,0.405,85.03,272394,4
+Muse,The Resistance,Uprising,4VqPOruhp5EdPBeR92t6lQ,0.602,0.905,2,-4.046,1,0.0775,0.000202,0.064,0.117,0.411,128.019,304840,4
