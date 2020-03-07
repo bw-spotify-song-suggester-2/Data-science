@@ -14,9 +14,9 @@ def clean_dataframe(df):
     features = df.columns[4:]
     df_num = df[features].copy().drop(columns = ['duration_ms', 'tempo'])
 
-    replace = [('time_signature', list(range(0,6))),
+    replace = [('time_signature', list(range(0,5))),
                ('mode', [0,1]),
-               ('key', list(range(1,12)))]
+               ('key', list(range(-1,12)))]
 
     for col in replace:
         cat_dtype = pd.api.types.CategoricalDtype(categories=col[1], ordered=False) # makes sure every
