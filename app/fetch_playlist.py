@@ -93,7 +93,9 @@ def pull_songs_and_feats(playlist_id):
     
     track_df = spotify_playlist_tracks(playlist_id)
     
-    track_ids = list(track_df['track_id'])
+    id_list = list(track_df['track_id'])
+    
+    track_ids = list(filter(None, id_list))
     
     track_features_df = spotify_track_features(track_ids)
     

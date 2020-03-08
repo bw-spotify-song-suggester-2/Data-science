@@ -7,26 +7,24 @@ from sklearn.model_selection import train_test_split
 df = pd.read_csv('app/model/track_master_df.csv')
 
 def clean_dataframe(df):
-    
+
     master_df = pd.read_csv('app/model/track_master_df.csv') #need to reference all features
-    
+
     # Use only the numerical data, remove duration_ms due to possible leak
     features = df.columns[4:]
     df_num = df[features].copy().drop(columns = ['duration_ms', 'tempo'])
 
-   
+    replace = [('time_signature', list(range(0,6))),
+               ('mode', [0,1]),
+               ('key', list(range(-1,12)))]
 
-    replace = [('time_signature', list(range(0,6))), 
-               ('mode', [0,1]), 
-               ('key', list(range(1,12)))]
-    
     for col in replace:
         cat_dtype = pd.api.types.CategoricalDtype(categories=col[1], ordered=False) # makes sure every
         df_num[col[0]] = master_df[col[0]].astype(cat_dtype)
 
         df_num = pd.concat([df_num,pd.get_dummies(df_num[col[0]], prefix=col[0])],axis=1)
         df_num = df_num.drop(columns = col[0])
-        
+
     return df_num
 
 df_num = clean_dataframe(df)
